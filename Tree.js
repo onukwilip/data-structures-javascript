@@ -1,6 +1,8 @@
 class Node {
   constructor(value, parentNode = null) {
-    (this.value = value), (this.childern = []), (this.parent = parentNode);
+    this.value = value;
+    this.childern = [];
+    this.parent = parentNode;
   }
 
   addChild(path) {
